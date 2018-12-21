@@ -1,8 +1,11 @@
+#NEEDLEMAN WUNSCH ALGORITHM
+#AUTHOR: MOUNTAINMAN12
+
 #!usr/bin/perl
 use strict;
 use warnings;
 
-my $string_filename1 = "NC_014510.1.fasta";  #CHANGE FILENAME 
+my $string_filename1 = "NC_014510.1.fasta";  #CHANGE FILENAME OR DOWNLOAD THIS FILE FROM THE INPUT-FILE REPOSITORY
 open(my $fh1, $string_filename1) or die("Couldn't read file $string_filename1\n");  
 
 local $/ = "\n>";  # read by FASTA record
